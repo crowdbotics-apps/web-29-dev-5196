@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0006_remove_customtext_gkjhgjhgkg'),
+        ("home", "0006_remove_customtext_gkjhgjhgkg"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='customtext',
-            name='kjhkh',
+            model_name="customtext",
+            name="kjhkh",
             field=models.BigIntegerField(blank=True, null=True),
         ),
     ]
