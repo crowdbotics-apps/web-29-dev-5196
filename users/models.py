@@ -10,3 +10,8 @@ class User(AbstractUser):
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
+
+
+class Sefrtg(models.Model):
+    "Generated Model"
+    sefdsf = models.BigIntegerField()
